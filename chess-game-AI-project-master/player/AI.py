@@ -1,6 +1,11 @@
 from board.move import move
 from pieces.nullpiece import nullpiece
 from pieces.queen import queen
+from pieces.pawn import pawn
+from pieces.rook import rook
+from pieces.bishop import bishop
+from pieces.king import king
+from pieces.knight import knight
 import random
 
 class AI:
@@ -10,7 +15,6 @@ class AI:
 
     def __init__(self):
         pass
-
 
     def evaluate(self,gametiles):
         min=100000

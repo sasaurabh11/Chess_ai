@@ -613,10 +613,6 @@ if saki=='ai':
                     saki='end3'
                     quitgame=True
 
-
-
-
-
             if not turn%2==0 and promotion==False:
 
                 turn=turn+1
